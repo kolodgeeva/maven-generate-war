@@ -46,11 +46,11 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.1</version>
                 <configuration>
-                    <webResources>
+                    <!--<webResources>
                         <resource>
                             <directory>additional_resources</directory>
                         </resource>
-                    </webResources>
+                    </webResources>-->
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
